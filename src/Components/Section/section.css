@@ -1,0 +1,12 @@
+.section{
+    width: 100%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+         
+}
+/* /Mobile Responsive */
+@media (max-width: 1010px){
+    .section{
+        height: fit-content;
+    }
+}

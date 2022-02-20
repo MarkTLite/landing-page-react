@@ -1,0 +1,11 @@
+.cardText{
+    text-align: left;
+    font-size: 14px;
+    padding-top: 15px;
+}
+/* /Mobile Responsive */
+@media (max-width: 1207px){
+    Card{
+        height: fit-content;
+    }
+}

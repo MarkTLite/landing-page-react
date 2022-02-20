@@ -1,0 +1,337 @@
+.landingPage{
+    background-color: white; 
+    font-family: 'Poppins';   
+    
+}
+.section1-card{
+    width: 64vw;
+    display: flex;  
+    flex-wrap: wrap;  
+    align-items: flex-end;
+    padding-bottom: 20px;
+ 
+
+}
+.section3-card{
+    width: 100%;
+    display: flex;  
+    flex-wrap: wrap;  
+    align-items: flex-end;
+    padding-bottom: 0px;
+ }
+.card1{
+    padding-right: 10px;
+    flex: 0 0 49.2%;
+    max-width: 49.2%;
+    height: 150px;
+    overflow: hidden;
+    
+}
+.p1{
+    margin-bottom: 30px;    
+    font-weight: 600;
+    font-size: 20px;
+    width: auto;
+    color: white;
+}
+.p2{
+    width: 42vw;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-align: left;
+} 
+.image1{
+    margin-bottom: 25px;
+}
+.section2-card{
+    height: fit-content;    
+    display: flex;    
+    align-items: flex-end;
+    border-spacing: 20px;
+    margin-bottom: 20px;
+    
+}
+.section5-card{
+    height: 80vh;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    display: flex;    
+    align-items: flex-end;
+    padding-bottom: 50px;
+    
+}
+.illustration3{ 
+   z-index: 0;   
+   height: 100%;
+   width: 100%;
+   margin-left: -15vw;
+   margin-right: -5vw;   
+            
+}
+.faq-wrapper{    
+    display: flex;
+    flex-wrap: wrap;      
+}
+.faq-container{
+   
+    height: 70vh;
+    flex: 0 0 56%;
+    max-width: 56%;
+}
+.form-container{    
+    height: 70vh;
+    flex: 0 0 44%;
+    max-width: 44%;
+}
+.team-div-names{
+    height: 20px;
+    display: flex;
+    margin-top: -40px;
+    width: 103%;
+    margin-left: -5px;    
+    
+}
+.team-div-det{    
+      
+    width: 103%;
+    margin-left: -5px;
+    
+}
+.section6-card{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: flex-end;
+    padding-bottom: 50px;
+    
+}
+.section6-text{
+    flex: 0 0 60%;
+    height: 100%;
+    padding-right: 2vw;
+    text-align: left;
+    font-size: 14px;
+}
+.section6-products{
+    flex: 0 0 40%; 
+    height: 100%;
+    
+    
+}
+.section6-back-outline{    
+    margin-left: 80px;
+    height: 70vh;
+    width: 350px;
+    margin-top: 60px;
+    border: 2px solid rgb(19, 154, 233);
+    border-radius: 10px;    
+}
+.section6-back-card{    
+    margin-left: 60px;
+    height: 70vh;
+    width: 350px;
+    margin-top: -72vh;
+    background-color: rgb(19, 154, 233);
+    border-radius: 10px;  
+} 
+
+.section6-front-card{     
+    margin-left: 40px;
+    height: 70vh;
+    width: 350px;
+    margin-top: -73vh;    
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px 15px;
+
+}
+.section6-front-card-row1{  
+    border-radius: 10px;  
+    background-color: aqua;
+    display: flex;
+        
+}
+.section6-front-card-row2{
+    margin-top: 15px;
+    background-color: red;
+    display: flex;
+}
+
+/* /Mobile Responsive */
+@media (max-width: 1207px){
+    
+    .landingPage{
+        background-color: white; 
+        font-family: 'Poppins';   
+        
+    }
+    .section1-card{
+        width: fit-content;
+        display: flex;  
+        flex-wrap: wrap;  
+        align-items: flex-end;
+        padding-bottom: 20px;     
+    
+    }
+    .section3-card{
+        width: 100%;
+        display: flex;  
+        flex-wrap: wrap;  
+        align-items: flex-end;
+        padding-bottom: 0px;
+     }
+    .card1{
+        padding-right: 10px;
+        flex: 0 0 49.2%;
+        max-width: 49.2%;
+        height: 150px;
+        overflow: hidden;
+        
+    }
+    .p1{
+        margin-bottom: 30px;    
+        font-weight: 600;
+        font-size: 20px;
+        width: auto;
+        color: white;
+    }
+    .p2{
+        width: 42vw;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+    h1{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        padding-bottom: 20px;
+        text-align: left;
+    } 
+    .image1{
+        margin-bottom: 25px;
+    }
+    .section2-card{
+        height: fit-content;    
+        display: flex;    
+        align-items: flex-end;
+        border-spacing: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .section5-card{
+        height: 80vh;
+        margin-right: 20vw;
+        margin-left: 20vw;
+        display: flex;    
+        align-items: flex-end;
+        padding-bottom: 50px;
+        
+    }
+    .illustration3{ 
+       z-index: 0;   
+       height: 100%;
+       width: 100%;
+       margin-left: -15vw;
+       margin-right: -5vw;   
+                
+    }
+    .faq-wrapper{    
+        display: flex;
+        flex-wrap: wrap;      
+    }
+    .faq-container{
+       
+        height: 70vh;
+        flex: 0 0 56%;
+        max-width: 56%;
+    }
+    .form-container{    
+        height: 70vh;
+        flex: 0 0 44%;
+        max-width: 44%;
+    }
+    .team-div-names{
+        height: 20px;
+        display: flex;
+        margin-top: -40px;
+        width: 103%;
+        margin-left: -5px;    
+        
+    }
+    .team-div-det{    
+          
+        width: 103%;
+        margin-left: -5px;
+        
+    }
+    .section6-card{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;    
+        align-items: flex-end;
+        padding-bottom: 50px;
+        
+    }
+    .section6-text{
+        flex: 0 0 60%;
+        height: 100%;
+        padding-right: 2vw;
+        text-align: left;
+        font-size: 14px;
+    }
+    .section6-products{
+        flex: 0 0 40%; 
+        height: 100%;
+        
+        
+    }
+    .section6-back-outline{    
+        margin-left: 80px;
+        height: 70vh;
+        width: 350px;
+        margin-top: 60px;
+        border: 2px solid rgb(19, 154, 233);
+        border-radius: 10px;    
+    }
+    .section6-back-card{    
+        margin-left: 60px;
+        height: 70vh;
+        width: 350px;
+        margin-top: -72vh;
+        background-color: rgb(19, 154, 233);
+        border-radius: 10px;  
+    } 
+    
+    .section6-front-card{     
+        margin-left: 40px;
+        height: 70vh;
+        width: 350px;
+        margin-top: -73vh;    
+        background-color: black;
+        border-radius: 10px;
+        padding: 15px 15px;
+    
+    }
+    .section6-front-card-row1{  
+        border-radius: 10px;  
+        background-color: aqua;
+        display: flex;
+            
+    }
+    .section6-front-card-row2{
+        margin-top: 15px;
+        background-color: red;
+        display: flex;
+    }
+    
+    }
