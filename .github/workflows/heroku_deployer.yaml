@@ -1,4 +1,4 @@
-name: Deploy to Heroku Container Registry
+name: build
 on: 
   push:
     branches:
